@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./tailwind.css";
 import { Poppins } from "next/font/google";
 import { OGHome } from "=>/utils/og";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
@@ -23,6 +24,7 @@ export default function RootLayout({
         <main className="grid grid-cols-1 justify-center sm:w-[640px] w-full sm:px-0 px-6">
           <NavBar />
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
