@@ -1,0 +1,123 @@
+export const OGHome = {
+  title: "Cristian Fonseca | Frontend Engineer",
+  description:
+    "Building projects from zero to faster web, with frameworks like serverless, React / Next.js.",
+  keywords: [
+    "cristian",
+    "cristian fonseca",
+    "web developer",
+    "cuban web developer",
+    "desarrollador web",
+    "frontend engineer",
+    "software engineer",
+    "ux",
+    "ui",
+    "web performance",
+    "web architecture",
+    "microservices",
+    "typescript",
+    "nextjs",
+    "react",
+  ],
+  applicationName: "Cristian Fonseca Personal Website",
+  authors: [
+    {
+      name: "Cristian Fonseca",
+      url: "https://new.cristianfonseca.com",
+    },
+  ],
+  generator: "Next.js",
+  viewport: "width=device-width, initial-scale=1",
+  creator: "Cristian Fonseca",
+  publisher: "Cristian Fonseca",
+  robots: "index,follow",
+  alternates: { canonical: "https://new.cristianfonseca.dev" },
+  icons: "https://new.cristianfonseca.dev/favicon.ico",
+  openGraph: {
+    type: "website",
+    url: "https://cristianfonseca.dev",
+    title: "Cristian Fonseca | Frontend Engineer",
+    description:
+      "I'm a frontend software engineer with experience in advanced architectures and cutting-edge technologies like Next.js, React, trpc, and TypeScript. On my website, you'll find resources, tutorials, and insights on the latest trends and challenges in web development.",
+    siteName: "Cristian Fonseca Personal Website",
+    images: [
+      {
+        url: "https://cristianfonseca.com/images/OG.png",
+        width: 1542,
+        height: 640,
+        alt: "Cristian Fonseca | Web Developer 🚀 🧑‍💻 Personal Website",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@cristian_devk",
+    creator: "@cristian_devk",
+    images: "https://cristianfonseca.com/images/OG.png",
+  },
+  assets: "https://new.cristianfonseca.com/images",
+  classification: "technical website",
+}
+
+export const OGBlog = {
+  title: "Cristian Fonseca | Frontend Engineer - Blog",
+  description:
+    "Building projects from zero to faster web, with frameworks like serverless, React / Next.js.",
+  keywords: [
+    "cristian",
+    "cristian fonseca",
+    "web developer",
+    "cuban web developer",
+    "desarrollador web",
+    "frontend engineer",
+    "software engineer",
+    "ux",
+    "ui",
+    "web performance",
+    "web architecture",
+    "microservices",
+    "typescript",
+    "nextjs",
+    "react",
+  ],
+  applicationName: "Cristian Fonseca Personal Website",
+  authors: [
+    {
+      name: "Cristian Fonseca",
+      url: "https://new.cristianfonseca.com",
+    },
+  ],
+  generator: "Next.js",
+  viewport: "width=device-width, initial-scale=1",
+  creator: "Cristian Fonseca",
+  publisher: "Cristian Fonseca",
+  robots: "index,follow",
+  alternates: { canonical: "https://new.cristianfonseca.dev" },
+  icons: "https://new.cristianfonseca.dev/favicon.ico",
+  openGraph: {
+    type: "website",
+    url: "https://cristianfonseca.dev",
+    title: "Cristian Fonseca | Frontend Engineer - Blog",
+    description:
+      "I'm a frontend software engineer with experience in advanced architectures and cutting-edge technologies like Next.js, React, trpc, and TypeScript. On my website, you'll find resources, tutorials, and insights on the latest trends and challenges in web development.",
+    siteName: "Cristian Fonseca Personal Website",
+    images: [
+      {
+        url: "https://cristianfonseca.com/images/OG.png",
+        width: 1542,
+        height: 640,
+        alt: "Cristian Fonseca | Web Developer 🚀 🧑‍💻 Personal Blog",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@cristian_devk",
+    creator: "@cristian_devk",
+    images: "https://cristianfonseca.com/images/OG.png",
+  },
+  assets: "https://new.cristianfonseca.com/images",
+  classification: "technical website",
+}
