@@ -1,4 +1,8 @@
 import { SpinnerIcon } from "=>/components/IconBase/IconBase";
 export default function Loading() {
-  return <SpinnerIcon size={120} className="animate-spin" />;
+  return (
+    <div className="flex justify-center items-center w-full mt-40 h-full">
+      <SpinnerIcon size={40} className="animate-spin" />;
+    </div>
+  );
 }

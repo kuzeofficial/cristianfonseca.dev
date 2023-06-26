@@ -4,4 +4,5 @@ type Frontmatter = {
   author: string;
   tags: [string];
   slug: string;
+  avatar: string;
 };
