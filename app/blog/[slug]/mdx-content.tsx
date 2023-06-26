@@ -14,18 +14,39 @@ const MdxComponents = {
   ),
   h3: (props: React.HTMLProps<HTMLHeadingElement>) => (
     <h3
-      className="font-semibold text-2xl text-black dark:text-white"
+      className="font-semibold text-2xl text-black leading-loose dark:text-white"
+      {...props}
+    />
+  ),
+  a: (props: React.HTMLProps<HTMLAnchorElement>) => (
+    <a
+      className="text-blue-500 hover:underline dark:text-blue-400 hover:transition-all hover:duration-500"
       {...props}
     />
   ),
   h4: (props: React.HTMLProps<HTMLHeadingElement>) => (
-    <h4 className="font-medium text-xl text-black dark:text-white" {...props} />
+    <h4
+      className="font-medium text-xl text-black leading-loose dark:text-white"
+      {...props}
+    />
   ),
   h5: (props: React.HTMLProps<HTMLHeadingElement>) => (
-    <h5 className="font-medium text-lg text-black dark:text-white" {...props} />
+    <h5
+      className="font-medium text-lg text-black leading-loose dark:text-white"
+      {...props}
+    />
+  ),
+  ul: (props: React.HTMLProps<HTMLUListElement>) => (
+    <ul className="list-disc mt-2 list-inside" {...props} />
+  ),
+  li: (props: React.HTMLProps<HTMLLIElement>) => (
+    <li className="text-base mt-1 text-black dark:text-white" {...props} />
   ),
   p: (props: React.HTMLProps<HTMLParagraphElement>) => (
-    <p className="text-base text-black dark:text-white" {...props} />
+    <p
+      className="text-base text-black leading-loose dark:text-white"
+      {...props}
+    />
   ),
   Image: (props: React.HTMLProps<HTMLImageElement>) => (
     <Image
